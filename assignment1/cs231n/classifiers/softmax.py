@@ -34,6 +34,7 @@ def softmax_loss_naive(W, X, y, reg):
     #############################################################################
     # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
     # write by samrito
+    # log_sum_exp is not a good method for numeric stability here, see the other implementation in assignment3.
 
     num_train = X.shape[0]
     num_class = W.shape[1]
@@ -81,6 +82,7 @@ def softmax_loss_vectorized(W, X, y, reg):
     #############################################################################
     # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
     # write by samrito
+    # log_sum_exp is not a good method for numeric stability here see the other implementation in assignment3.
 
     num_train = X.shape[0]
     num_class = W.shape[1]
