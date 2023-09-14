@@ -1,0 +1,9 @@
+.vscode
+
+datasets
+
+data
+
+pretrained_model
+
+*.pyc
